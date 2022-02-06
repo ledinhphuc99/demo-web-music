@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/base.css">
+    <link rel="stylesheet" href="./styles/css/main.css">
+    <link rel="stylesheet" href="./styles/css/grid.css">
+    <link rel="stylesheet" href="./styles/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./styles/css/responsive.css">
+    <link rel="icon" href="./styles/img/logo-unscreen.gif" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&family=Roboto+Condensed:ital@0;1&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>ChillMusic</title>
+</head>
+<body>
+    <div class="backgroup">
+        <video class="video"  autoplay muted loop   src="">
+        
+        </video>
+        <div class="heading">
+            <div class="grid wide">
+                <div class="row heading-row">
+                    <div class="col l-2 c-5">
+                        <div class="heading__logo">
+                            <a href="" class="heading__link">
+                                <img class="logo"src="./styles/img/logo-unscreen.gif" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2 c-5">
+                        <div class="heading__text">
+                            <h1 class="text-name">ChillMusic</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-music">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 c-0">
+                        <div class="body-list">
+
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col l-8 c-12">
+                        <div class="body-music__name">
+                            <h4>Now playing:</h4>
+                            <h2>String 57th & 9th</h2>
+
+                        </div>
+                    </div>
+                    <div class="col l-1 c-0">
+                        <div class="body-info">
+                            <div class="body-info-list">
+                                <a href="" class="body-info-list__link">
+                                    <i class="fab fa-facebook body-info-list__icon"></i>
+                                </a>
+                                <a href="" class="body-info-list__link">
+                                    <i class="fab fa-instagram-square body-info-list__icon"></i>
+                                </a>
+                                <a href="" class="body-info-list__link">
+                                    <i class="fab fa-github-square body-info-list__icon"></i>
+                                </a>
+                                <a href="" class="body-info-list__link">
+                                    <i class="fab fa-spotify body-info-list__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                   
+            </div>
+        </div>
+       <div class="body-control">
+           <div class="grid wide">
+               <div class="row">
+                   <div class="col l-4 c-0">
+                       <img src="./styles/img/logo2-unscreen.gif" alt="" class="img-happy">
+                       <p >
+                        Music by-<a href="" class="text-link">Phucmusic.com</a> © 2022
+                       </p>
+                   </div>
+                   <div class="col l-5 c-12 nav-control">
+                    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <div class="control">
+                        <div class="btn btn-repeat">
+                          <i class="fas fa-redo"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                          <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                          <i class="fas fa-pause icon-pause"></i>
+                          <i class="fas fa-play icon-play"></i>
+                        </div>
+                        <div class="btn btn-next">
+                          <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                          <i class="fas fa-random"></i>
+                        </div>
+                        <div class="btn btn-toggle-volume">
+                            <i class="fas fa-volume-up icon-up"></i>
+                            <i class="fas fa-volume-mute icon-mute"></i>
+                        </div>
+                      </div>
+                  
+                      
+                  
+                      <audio id="audio" src=""></audio>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
